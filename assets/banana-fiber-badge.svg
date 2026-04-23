@@ -1,0 +1,22 @@
+<svg width="520" height="520" viewBox="0 0 520 520" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Banana fiber badge">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="80" x2="440" y2="450" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.86"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.62"/>
+    </linearGradient>
+    <linearGradient id="strand" x1="120" y1="120" x2="410" y2="410" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F1B17" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#D72638" stop-opacity="0.12"/>
+    </linearGradient>
+  </defs>
+  <circle cx="260" cy="260" r="206" fill="url(#bg)" stroke="#1F1B17" stroke-opacity="0.12" stroke-width="2"/>
+  <path d="M340 150 C 326 154, 318 166, 322 184 C 326 206, 310 220, 296 232 C 280 246, 274 264, 282 282 C 290 300, 282 314, 270 326 C 256 340, 250 356, 258 372 C 268 392, 286 404, 302 404 C 320 404, 326 388, 338 374 C 350 360, 370 350, 372 330 C 374 308, 360 294, 362 276 C 364 256, 380 246, 378 226 C 376 204, 358 198, 356 182 C 354 166, 350 148, 340 150 Z" fill="#1F1B17" fill-opacity="0.045" stroke="#D72638" stroke-opacity="0.14" stroke-width="2"/>
+  <path d="M160 220 C 210 170, 310 170, 360 220" stroke="url(#strand)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M150 270 C 215 220, 305 220, 370 270" stroke="url(#strand)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M160 320 C 220 278, 300 278, 360 320" stroke="url(#strand)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M185 165 C 210 200, 210 240, 185 275" stroke="#D72638" stroke-opacity="0.50" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 10"/>
+  <path d="M335 245 C 365 280, 365 320, 335 355" stroke="#D72638" stroke-opacity="0.45" stroke-width="3" stroke-linecap="round" stroke-dasharray="6 10"/>
+  <text x="260" y="250" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="34" font-weight="800" fill="#1F1B17">PADÌ</text>
+  <text x="260" y="288" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="12" font-weight="700" letter-spacing="0.22em" fill="#1F1B17" fill-opacity="0.70">BANANA FIBER</text>
+  <text x="260" y="308" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="12" font-weight="700" letter-spacing="0.22em" fill="#1F1B17" fill-opacity="0.70">FROM AFRICA</text>
+</svg>

@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#F5F1EF" />
+    <title>Build / Connect — PADÌ</title>
+    <meta
+      name="description"
+      content="Build with PADÌ. Contact us, donate via Zelle, or share your story."
+    />
+    <link rel="icon" href="assets/padi-logo-mark.png" type="image/png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary">
+        <a class="brand" href="index.html" aria-label="PADÌ home">
+          <img
+            class="brand-logo"
+            src="assets/padi-logo-mark.png"
+            alt="PADÌ"
+            width="40"
+            height="40"
+            decoding="async"
+          />
+          <span class="brand-text">PADÌ</span>
+        </a>
+        <div class="nav-links">
+          <a href="index.html#how-it-works">How it works</a>
+          <a href="index.html#news">News</a>
+          <a class="btn btn--small" href="connect.html" aria-current="page"
+            >Build / connect</a
+          >
+        </div>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero hero--compact">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <img
+              class="hero-logo reveal"
+              src="assets/padi-logo-mark.png"
+              alt="PADÌ logo"
+              width="120"
+              height="120"
+              decoding="async"
+            />
+            <p class="eyebrow reveal">Let’s build together</p>
+            <h1 class="hero-title reveal">Build / connect with us</h1>
+            <p class="hero-lede reveal">
+              Partnerships, pilots, press, sponsorships, and community stories.
+              Keep it human—keep it sustainable.
+            </p>
+            <div class="hero-actions reveal">
+              <a class="btn" href="#contact">Contact us</a>
+              <a class="btn btn--ghost" href="#donate">Donate via Zelle</a>
+            </div>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <img
+              class="hero-illustration hero-illustration--small"
+              src="assets/banana-fiber-badge.svg"
+              alt=""
+              loading="eager"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container">
+          <header class="section-head reveal">
+            <h2>Contact us</h2>
+            <p class="muted">
+              This form is ready for a backend later. For now, it gives a clean
+              UI and can open an email draft.
+            </p>
+          </header>
+
+          <div class="two-col two-col--form">
+            <form class="form card reveal" id="contactForm">
+              <div class="field">
+                <label for="fullName">Full name</label>
+                <input
+                  id="fullName"
+                  name="fullName"
+                  type="text"
+                  autocomplete="name"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="email">Email address</label>
+                <input
+                  id="email"
+                  name="email"
+                  type="email"
+                  autocomplete="email"
+                  required
+                />
+              </div>
+              <div class="field">
+                <label for="message">Your message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+              </div>
+              <div class="form-actions">
+                <button class="btn" type="submit">Send message</button>
+                <p class="muted small">
+                  Tip: update the email + socials below with your real handles.
+                </p>
+              </div>
+              <div class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+            </form>
+
+            <aside class="panel panel--sticky reveal">
+              <h3>Say hi</h3>
+              <p class="muted">
+                Prefer socials? Reach us here and we’ll respond quickly.
+              </p>
+
+              <div class="socials" aria-label="Social links">
+                <a class="social" href="#" aria-disabled="true">
+                  <span class="icon" aria-hidden="true">
+                    <img src="assets/icon-linkedin.svg" alt="" />
+                  </span>
+                  LinkedIn
+                </a>
+                <a class="social" href="#" aria-disabled="true">
+                  <span class="icon" aria-hidden="true">
+                    <img src="assets/icon-instagram.svg" alt="" />
+                  </span>
+                  Instagram
+                </a>
+                <a class="social" href="mailto:hello@padi.bio">
+                  <span class="icon" aria-hidden="true">
+                    <img src="assets/icon-email.svg" alt="" />
+                  </span>
+                  hello@padi.bio
+                </a>
+              </div>
+
+              <div class="mini-callout">
+                <div class="mini-callout-title">For press</div>
+                <p class="muted small">
+                  Add a press kit link here when ready.
+                </p>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+
+      <section id="donate" class="section section--alt">
+        <div class="container">
+          <header class="section-head reveal">
+            <h2>Donate to us</h2>
+            <p class="muted">
+              We’ll collect donations through Zelle (placeholder details for
+              now).
+            </p>
+          </header>
+
+          <div class="donate-grid">
+            <div class="card reveal">
+              <h3>Donate via Zelle</h3>
+              <p class="muted">
+                Send your donation to:
+                <span class="pill">hello@padi.bio</span> (or your Zelle phone
+                number).
+              </p>
+              <button class="btn btn--ghost" type="button" data-copy="hello@padi.bio">
+                Copy Zelle recipient
+              </button>
+              <p class="muted small">
+                Note: swap this with the exact Zelle recipient you want.
+              </p>
+            </div>
+
+            <div class="panel reveal">
+              <h3>What your donation supports</h3>
+              <ul class="list">
+                <li>Material R&amp;D with banana fibers</li>
+                <li>Product testing and community pilots</li>
+                <li>Education and access initiatives</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="story" class="section">
+        <div class="container">
+          <header class="section-head reveal">
+            <h2>Share your story with us</h2>
+            <p class="muted">
+              Stories help us design with empathy. Share what you want—keep
+              anything private out of the message.
+            </p>
+          </header>
+
+          <form class="form card reveal" id="storyForm">
+            <div class="field">
+              <label for="storyName">Name (optional)</label>
+              <input id="storyName" name="storyName" type="text" autocomplete="name" />
+            </div>
+            <div class="field">
+              <label for="storyEmail">Email (optional)</label>
+              <input
+                id="storyEmail"
+                name="storyEmail"
+                type="email"
+                autocomplete="email"
+              />
+            </div>
+            <div class="field">
+              <label for="storyText">Your story</label>
+              <textarea id="storyText" name="storyText" rows="7" required></textarea>
+            </div>
+            <div class="form-actions">
+              <button class="btn" type="submit">Share story</button>
+              <div class="toast" role="status" aria-live="polite" aria-atomic="true"></div>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand brand--footer">
+            <img
+              class="brand-logo"
+              src="assets/padi-logo-mark.png"
+              alt="PADÌ"
+              width="40"
+              height="40"
+              loading="lazy"
+              decoding="async"
+            />
+            <span class="brand-text">PADÌ</span>
+          </div>
+          <p class="muted small">
+            Building with banana fiber innovation—grounded, modern, and kind.
+          </p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="#contact">Contact</a>
+          <a href="#donate">Donate</a>
+          <a href="#story">Share story</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <p class="muted small">© <span id="year"></span> PADÌ. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

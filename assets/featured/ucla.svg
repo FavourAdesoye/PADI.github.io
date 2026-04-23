@@ -1,0 +1,6 @@
+<svg width="640" height="200" viewBox="0 0 640 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="UCLA (placeholder)">
+  <rect x="18" y="28" width="604" height="144" rx="22" fill="#FFFFFF" fill-opacity="0.22" stroke="#1F1B17" stroke-opacity="0.14" stroke-width="2"/>
+  <path d="M64 138 C 120 92, 182 94, 232 136" stroke="#D72638" stroke-opacity="0.55" stroke-width="4" stroke-linecap="round" stroke-dasharray="10 12"/>
+  <text x="320" y="118" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="64" font-weight="820" letter-spacing="0.02em" fill="#1F1B17" fill-opacity="0.78">UCLA</text>
+</svg>
+

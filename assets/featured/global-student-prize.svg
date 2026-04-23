@@ -1,0 +1,7 @@
+<svg width="640" height="200" viewBox="0 0 640 200" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Global Student Prize (placeholder)">
+  <rect x="18" y="28" width="604" height="144" rx="22" fill="#FFFFFF" fill-opacity="0.22" stroke="#1F1B17" stroke-opacity="0.14" stroke-width="2"/>
+  <path d="M92 130 C 120 84, 160 84, 188 130" stroke="#D72638" stroke-opacity="0.55" stroke-width="4" stroke-linecap="round"/>
+  <text x="372" y="100" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="28" font-weight="860" letter-spacing="0.10em" fill="#1F1B17" fill-opacity="0.76">GLOBAL STUDENT</text>
+  <text x="372" y="132" text-anchor="middle" font-family="ui-sans-serif, system-ui" font-size="28" font-weight="860" letter-spacing="0.10em" fill="#1F1B17" fill-opacity="0.76">PRIZE</text>
+</svg>
+
